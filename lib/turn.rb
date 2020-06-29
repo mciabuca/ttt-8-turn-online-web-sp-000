@@ -11,3 +11,8 @@ def display_board(boards)
 end
 
 display_board(board);
+
+def input_to_index(input)
+  input -= 1;
+  return input;
+end
